@@ -1,0 +1,331 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Restful Api">
+  <meta name="keywords" content="Rest Api, Dhn-Api, Dhnapi, DehanApi, dhnapi, Restful Api">
+  <meta name="author" content="@dehan_j1ng">
+  <meta name="og:type" content="Api Rest"/>
+  <meta name="og:url" content="http://dhn-api.herokuapp.com/api"/>
+  <meta name="og:site_name" content="Dhn-Api"/>
+  <meta name="og:description" content="Restfull Web Api's"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:image" content="img/favicon.ico"/> 
+  <meta property="og:title" content="Dehan API's" /> 
+  <meta property="og:description" content="Restful web Api"/> 
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>Reza api's</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link href="css/nucleo-icons.css" rel="stylesheet" />
+  <link href="css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+  <link href="demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="" data-background-color="dark">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+   <div style="visibility:hidden">
+    <audio autoplay loop>
+        <source src="https://a.top4top.io/m_1945s69gu9.mp3">
+    </audio> 
+</div>
+  <div class="wrapper">
+    <div class="sidebar">
+      <div class="sidebar-wrapper">
+        <div class="logo">
+          <center><img src="img/rainbow.gif" alt="Ih Wibu">
+          <a href="/api" class="simple-text logo-normal rainbow-text">
+            Reza - Api's
+          </a></center>
+        </div>
+       <ul class="nav">
+          <li class="active">
+            <a href="/api">
+              <i class="tim-icons icon-chart-pie-36 text-primary"></i>
+              <h4 class="bold">DOCS</h4>
+            </a>
+          </li>
+          <li class="logo"></li>
+            <li>
+            <a href="/anime">
+              <i class="fas fa-ghost"></i>
+              <h4 class="bold">Anime DOCS</h4>
+            </a>
+            </li>
+          <li>
+            <a href="/apk">
+              <i class="fa fa-angle-double-up"></i>
+              <h4 class="bold">Coming Soon</h4>
+            </a>
+          </li>
+          <li>
+            <a href="/json">
+              <i class="fas fa-code"></i>
+              <h4 class="bold">JSON Data</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute bg-default border">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle d-inline">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand font-weight-dark" href="javascript:void(0)">DASHBOARD</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto">
+              
+              <li class="dropdown nav-item">
+                <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <div class="notification d-none d-lg-block d-xl-block"></div>
+                  <i class="tim-icons icon-sound-wave"></i>
+                  <p class="d-lg-none">
+                    Notes!
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
+                  <li class="nav-link"><a href="#" class="nav-item dropdown-item text-primary">Free Rest Api!</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item text-primary">Please use this wisely dont spam :)</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item text-primary">Big Update! Changing Theme</a></li>
+                </ul>
+              </li>
+            <li class="dropdown nav-item">
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <div class="photo">
+                <i class="fa fa-hand-peace"></i>
+                  </div>
+                  <b class="caret d-none d-lg-block d-xl-block"></b>
+                  <p class="d-lg-none">
+                    Change Log!
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-navbar">
+                  <li class="nav-link"><a href="#changelog" class="nav-item dropdown-item">Big Update!</a></li>
+                <li class="dropdown-divider"></li>
+                  <li class="nav-link"><a href="#kawaii" class="nav-item dropdown-item">Reza gans </a></li>
+                <li class="dropdown-divider"></li>
+                  <li class="nav-link"><a href="#otw" class="nav-item dropdown-item">Besok Lanjut mwehehe</a></li>
+                <li class="dropdown-divider"></li>
+                  <li class="nav-link">
+                    <div class="alert alert-info alert-with-icon bg-default" data-notify="container">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="tim-icons icon-simple-remove"></i>
+                  </button>
+                  <span data-notify="icon" class="tim-icons icon-bell-55 text-primary"></span>
+                  <span data-notify="message" class="text-primary">Next Update: <br> "APK DOCS"</span>
+                </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="separator d-lg-none"></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="tim-icons icon-simple-remove"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
+      <div class="content">
+<div class="alert alert-primary alert-dismissible fade show text-justify text-default" role="alert">
+  <strong>Reza - Api's</strong><br>Free Restful Api just for you >//<
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <i class="tim-icons icon-simple-remove"></i>
+  </button>
+</div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+        <div class="card">
+      <ul class="list-group-item list-group-flush">
+               <h3 class="list-group-item text-justify text-center font-italic font-weight-bolder">
+                   Reza - Api's
+               </h3>
+               </ul>
+               </div>
+               </div>
+            <div class="col-lg-6 col-md-12">
+             <div class="card border text-center text-primary">            
+            <br>
+                <div class="card card-columns col-auto text-center text-danger">
+                 <i class="fas fa-stopwatch text-primary">
+                  Date: </i>
+                  <div class="rainbow-text" id="date">
+                    <script>window.onload = setInterval(clock,1000);
+                    function clock()
+                    {
+                      var d = new Date();
+                      var date = d.getDate();
+                      var year = d.getFullYear();
+                      var month = d.getMonth();
+                      var hour = d.getHours();
+                      var minute = d.getMinutes();
+                      var monthArr = ["Januari", "Februari","Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November","Desember"];
+                      month = monthArr[month];
+                      document.getElementById("date").innerHTML=date+" "+month+", "+year+", Jam "+hour+":"+minute;
+                      };</script>
+                </div>
+                </div>
+                <div class="card card-columns  col-auto text-center text-danger">
+                <i class="fas fa-stopwatch-20 text-primary">
+                Count Down To 2021: </i>
+                <div class="rainbow-text" id="countdown">
+                <script>
+                var countDownDate = new Date("Jan 1, 2022 00:00:00").getTime();
+                var x = setInterval(function() {
+                  var now = new Date().getTime();
+                  var distance = countDownDate - now;
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                  document.getElementById("countdown").innerHTML = days + "h - " + hours + "j - " + minutes + "m - " + seconds + "d";
+                  if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdown").innerHTML = "Happy New Year!";
+                    }
+                }, 1000);
+                </script>
+                </div>
+               </div>
+                <div class="card card-columns col-auto text-center text-danger">
+                <i class="fas fa-map-marker-alt text-primary">
+                Ip Address: </i>
+                <div class="rainbow-text" id="ip">
+                    <script> 
+        $.getJSON("https://api.ipify.org?format=json", 
+        function(data) { 
+           $("#ip").html(data.ip); 
+        }) 
+    </script> 
+        </div>
+        </div>
+              </div>
+              </div>
+                <div class="col-lg-6 col-md-12">
+              <div class="card border center">
+                  <h3 class="card-header text-center text-justify">THANKS: </h3>
+                  <li class="divider"></li>
+                  <div class="card-body text-center">
+                     <p class="card-text text-center text-justify">
+                    Allah SWT
+                    </p>
+                    <p class="card-text text-center text-justify">
+                      My Parents!
+                    </p>
+                    <p class="card-text text-center text-justify">
+                      All User using this Restful Api
+                    </p>
+                    <br>
+                         </div>
+                         </div>
+                         </div>
+                           <div class="col-lg-6 col-md-12">
+                         <div class="card border card-nav-tabs">
+                            <div class="card-body text-center">
+                                <blockquote class="blockquote mb-0">
+                                <p><i class="fab fa-fw fa-whatsapp text-primary"></i> Chat me Via Whatsapp<a href="https://wa.me/6285281870472">
+                              <footer class="blockquote-footer"><cite title="Source Title">Rezagamnteng</cite></footer></a></p>
+                             </blockquote>
+                             </div>
+                             </div>
+                             </div>
+                         </div>
+                         </div>
+      <footer class="footer text-center">
+        <div class="container-fluid text-center">
+          <center>
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="https://www.npmjs.com/package/dhn-api" class="nav-link text-danger">
+                Rza-Api Modules NPM
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/dehan-j1ng" class="nav-link text-danger">
+                Github
+              </a>
+            </li>
+          </ul>
+          </center>
+          <br>
+          <div class="copyright text-center">
+            ©
+            <script>
+              document.write(new Date().getFullYear())
+            </script> made with <i class="tim-icons icon-heart-2"></i> by
+            <a href="https://wa.me/6285281870472" target="_blank" class="text-primary">Rezagamnteng</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <div class="fixed-plugin">
+    <div class="dropdown show-dropdown">
+      <a href="#" data-toggle="dropdown">
+        <i class="fa fa-cog fa-2x text-primary"> </i>
+      </a>
+      <ul class="dropdown-menu">
+        <li class="header-title">Thank you for using my Rest Api! <i class="app-menu__icon fa fa-hand-peace text-primary"></i></li>
+        <li class="button-container text-center">
+          <a class="github-button" href="https://github.com/dehan-j1ng" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Github</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="js/core/jquery.min.js"></script>
+  <script src="js/core/popper.min.js"></script>
+  <script src="js/core/bootstrap.min.js"></script>
+  <script src="js/plugins/perfect-scrollbar.jquery.min.js"></script>
+
+  <script src="js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! -->
+  <script src="demo/demo.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      demo.initDashboardPageCharts();
+
+    });
+  </script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "black-dashboard-free"
+      });
+  </script>
+ <!--script>
+alert("fitur dikit? maaf bang :(")
+</script!-->
+</body>
+</html>
